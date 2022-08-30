@@ -130,7 +130,7 @@
 <p>GET _search<br>{<br>“query”: {<br>“match_all”: {}<br>}<br>}</p>
 <p>#查询索引库<br>GET &#x2F;heima</p>
 <p>#修改索引库<br>PUT &#x2F;heima&#x2F;_mapping<br>{<br>“properties”:{<br>“age”:{<br>“type”:”integer”<br>}<br>}<br>}</p>
-<p>#新增文档<br>POST &#x2F;heima&#x2F;_doc&#x2F;1<br>{<br>“info”: “黑马练习生”,<br>“email”: “<a href="mailto:&#x31;&#56;&#x31;&#x30;&#53;&#56;&#57;&#57;&#48;&#x39;&#54;&#x40;&#49;&#54;&#51;&#46;&#99;&#x6f;&#109;">&#x31;&#56;&#x31;&#x30;&#53;&#56;&#57;&#57;&#48;&#x39;&#54;&#x40;&#49;&#54;&#51;&#46;&#99;&#x6f;&#109;</a>“,<br>“name”:{<br>“fristName”: “文范”,<br>“lastName”: “王”<br>}<br>}</p>
+<p>#新增文档<br>POST &#x2F;heima&#x2F;_doc&#x2F;1<br>{<br>“info”: “黑马练习生”,<br>“email”: “<a href="mailto:&#x31;&#56;&#x31;&#x30;&#x35;&#56;&#x39;&#57;&#x30;&#57;&#x36;&#64;&#49;&#54;&#51;&#x2e;&#x63;&#x6f;&#x6d;">&#x31;&#56;&#x31;&#x30;&#x35;&#56;&#x39;&#57;&#x30;&#57;&#x36;&#64;&#49;&#54;&#51;&#x2e;&#x63;&#x6f;&#x6d;</a>“,<br>“name”:{<br>“fristName”: “文范”,<br>“lastName”: “王”<br>}<br>}</p>
 <p>#查询文档<br>GET &#x2F;heima&#x2F;_doc&#x2F;1</p>
 <p>DELETE &#x2F;hotel</p>
 <p>GET &#x2F;hotel&#x2F;_doc&#x2F;36934</p>
@@ -538,7 +538,9 @@
 <script src="/js/busuanzi-2.3.pure.min.js"></script>
  
 <!-- ClickLove -->
-
+ 
+<script src="/js/clickLove.js"></script>
+ 
 <!-- ClickBoom1 -->
 
 <!-- ClickBoom2 -->
@@ -610,6 +612,23 @@
 </script>
 
 
+    
+    <div id="music">
+    
+    
+    
+    <iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="200" height="52"
+        src="//music.163.com/outchain/player?type=2&id=22707008&auto=1&height=32"></iframe>
+</div>
+
+<style>
+    #music {
+        position: fixed;
+        right: 15px;
+        bottom: 0;
+        z-index: 998;
+    }
+</style>
     
     
 
